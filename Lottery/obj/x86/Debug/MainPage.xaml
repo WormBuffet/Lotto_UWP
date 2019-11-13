@@ -16,113 +16,65 @@
             row(s) before it-->
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        
-        <!-- A RelativePanel defines an area which allows for the positioning and alignment of child objects in
-        relation to each other or a parent panel-->
-        <RelativePanel >
-            <Button x:ConnectionId='9' x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;" FontSize="36"                               />
-        </RelativePanel>
-        
+
         <!-- A SplitView is a container which is allowed to have two views; one for the main content and another
         which is used for basic navigation (e.g. icons)-->
-        <SplitView x:ConnectionId='2' x:Name="MySplitView" 
-                   DisplayMode="CompactOverlay" 
-                   Grid.Row="1" OpenPaneLength="250" 
-                   CompactPaneLength="68" 
-                   HorizontalAlignment="Left">
+
+        <SplitView IsPaneOpen="True"
+                   DisplayMode="Inline"
+                   OpenPaneLength="75" >
             <SplitView.Pane>
-                <ListBox x:ConnectionId='3' SelectionMode="Single" Name="HamburgerListBox"                                                     >
-                    <ListBoxItem x:ConnectionId='4' Name="HomeListBox">
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE80F;" />
-                            <TextBlock Text="Home" FontSize="24" Margin="20, 0, 0, 0" />
-                        </StackPanel>
+                <ListBox x:ConnectionId='2' SelectionMode="Multiple"                                         >
+                    <ListBoxItem x:ConnectionId='3' Name="HamburgerButton">
+                        <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE700;" Margin="8, 0, 0, 0" />
                     </ListBoxItem>
-
-                    <ListBoxItem x:ConnectionId='5' Name="AboutListBox">
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE946;" />
-                            <TextBlock Text="About" FontSize="24" Margin="20, 0, 0, 0" />
-                        </StackPanel>
-                    </ListBoxItem>
-
-                    <ListBoxItem x:ConnectionId='6' Name="AccountListBox">
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE8FA;" />
-                            <TextBlock Text="Add Account" FontSize="24" Margin="20, 0, 0, 0" />
-                        </StackPanel>
-                    </ListBoxItem>
-
-                    <ListBoxItem x:ConnectionId='7' Name="ContactListBox">
-                        <StackPanel Orientation="Horizontal">
-                            <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE910;" />
-                            <TextBlock Text="Contact" FontSize="24" Margin="20, 0, 0, 0" />
-                        </StackPanel>
-                    </ListBoxItem>
-                    
                 </ListBox>
             </SplitView.Pane>
             <SplitView.Content>
-                <TextBlock x:ConnectionId='8' x:Name="ButtonClickResult" />
+                <SplitView x:ConnectionId='4' x:Name="MySplitView" 
+                   DisplayMode="CompactOverlay" 
+                   Grid.Row="1" OpenPaneLength="275" 
+                   CompactPaneLength="75" 
+                   HorizontalAlignment="Left">
+                    <SplitView.Pane>
+
+                        <ListBox x:ConnectionId='5' SelectionMode="Single" Name="HamburgerListBox"                                                     >
+
+                            <ListBoxItem x:ConnectionId='6' Name="HomeListBox">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE80F;" Margin="8, 0, 0, 0" />
+                                    <TextBlock Text="Home" FontSize="24" Margin="20, 0, 0, 0" />
+                                </StackPanel>
+                            </ListBoxItem>
+
+                            <ListBoxItem x:ConnectionId='7' Name="AboutListBox">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE946;" Margin="8, 0, 0, 0" />
+                                    <TextBlock Text="About" FontSize="24" Margin="20, 0, 0, 0" />
+                                </StackPanel>
+                            </ListBoxItem>
+
+                            <ListBoxItem x:ConnectionId='8' Name="AccountListBox">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE8FA;" Margin="8, 0, 0, 0" />
+                                    <TextBlock Text="Add Account" FontSize="24" Margin="20, 0, 0, 0" />
+                                </StackPanel>
+                            </ListBoxItem>
+
+                            <ListBoxItem x:ConnectionId='9' Name="ContactListBox">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock FontFamily="Segoe MDL2 Assets" FontSize="36" Text="&#xE910;" Margin="8, 0, 0, 0" />
+                                    <TextBlock Text="Contact" FontSize="24" Margin="20, 0, 0, 0" />
+                                </StackPanel>
+                            </ListBoxItem>
+
+                        </ListBox>
+                    </SplitView.Pane>
+                </SplitView>
             </SplitView.Content>
         </SplitView>
     </Grid>
-    
-    <!--
-    <SplitView IsPaneOpen="False"
-           DisplayMode="CompactOverlay"
-           OpenPaneLength="300"
-           x:Name="MenuSpitview"
-           CompactPaneLength="150">
-        <SplitView.Pane>
-            <StackPanel Background="#8DFFAB">
-                <Button x:Name="HamburgerButton" FontFamily="Segoe MDL2 Assets" Content="&#xE700;"
-                    Width="100" Height="60" Background="Transparent"
-                    FontSize="50" Margin="26, 20, 0, 0"
-                 />
-                <StackPanel>
-                    <Button x:Name="Home" FontFamily="Segoe MDL2 Assets" Content="&#xE80F;" 
-                    Background="Transparent" FontSize="50" Margin="19.5, 0" Width="100"
-                    Height="100"
-                    />
-                </StackPanel>
-                <StackPanel>
-                    <Button x:Name="ExistingAccount" FontFamily="Segoe MDL2 Assets" Content="&#xE910;" 
-                    Background="Transparent" FontSize="50" Margin="19.5, 0" Width="100"
-                    Height="100"
-                    />
-                </StackPanel>
-                <StackPanel>
-                    <Button x:Name="Contact" FontFamily="Segoe MDL2 Assets" Content="&#xE8F2;" 
-                    Background="Transparent" FontSize="50" Margin="19.5, 0" Width="100"
-                    Height="100"
-                    />
-                </StackPanel>
-                <StackPanel>
-                    <Button x:Name="NewAccount" FontFamily="Segoe MDL2 Assets" Content="&#xE8FA;" 
-                    Background="Transparent" FontSize="50" Margin="19.5, 0" Width="100"
-                    Height="100"
-                    />
-                </StackPanel>
-                <StackPanel>
-                    <Button x:Name="FAQ" FontFamily="Segoe MDL2 Assets" Content="&#xE946;" 
-                    Background="Transparent" FontSize="50" Margin="19.5, 0" Width="100"
-                    Height="100"
-                    />
-                </StackPanel>
-            </StackPanel>
-        </SplitView.Pane>
 
-        <Grid>
-            <TextBlock 
-                Text="Content"
-                FontSize="24"
-                VerticalAlignment="Center"
-                HorizontalAlignment="Center"
-             />
-        </Grid>
-    </SplitView>
-    -->
 </Page>
     
 

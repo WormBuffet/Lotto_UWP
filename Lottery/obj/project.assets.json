@@ -27999,11 +27999,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\College\\Small Scale Applications\\UWP\\Lottery\\Lottery\\Lottery.csproj",
+      "projectUniqueName": "C:\\Users\\1815530\\source\\repos\\Lottery\\Lottery\\Lottery.csproj",
       "projectName": "Lottery",
-      "projectPath": "F:\\College\\Small Scale Applications\\UWP\\Lottery\\Lottery\\Lottery.csproj",
+      "projectPath": "C:\\Users\\1815530\\source\\repos\\Lottery\\Lottery\\Lottery.csproj",
       "packagesPath": "C:\\Users\\1815530\\.nuget\\packages\\",
-      "outputPath": "F:\\College\\Small Scale Applications\\UWP\\Lottery\\Lottery\\obj\\",
+      "outputPath": "C:\\Users\\1815530\\source\\repos\\Lottery\\Lottery\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [

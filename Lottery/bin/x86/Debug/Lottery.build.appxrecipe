@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>5ea321d7-8b7d-467e-8d45-c522cb23a250</PackageIdentityName>
     <PackageIdentityPublisher>CN=1815530</PackageIdentityPublisher>
-    <IntermediateOutputPath>F:\College\Small Scale Applications\UWP\Lottery\Lottery\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\1815530\source\repos\Lottery\Lottery\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>F:\College\Small Scale Applications\UWP\Lottery\Lottery\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\1815530\source\repos\Lottery\Lottery\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="F:\College\Small Scale Applications\UWP\Lottery\Lottery\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\1815530\source\repos\Lottery\Lottery\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="F:\College\Small Scale Applications\UWP\Lottery\Lottery\bin\x86\Debug\Lottery.exe">
+    <AppxPackagedFile Include="C:\Users\1815530\source\repos\Lottery\Lottery\bin\x86\Debug\Lottery.exe">
       <PackagePath>entrypoint\Lottery.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\microsoft.csharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
@@ -373,52 +373,52 @@
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.17763.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
       <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\College\Small Scale Applications\UWP\Lottery\Lottery\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\1815530\source\repos\Lottery\Lottery\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\College\Small Scale Applications\UWP\Lottery\Lottery\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\1815530\source\repos\Lottery\Lottery\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\College\Small Scale Applications\UWP\Lottery\Lottery\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\1815530\source\repos\Lottery\Lottery\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\College\Small Scale Applications\UWP\Lottery\Lottery\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\1815530\source\repos\Lottery\Lottery\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\College\Small Scale Applications\UWP\Lottery\Lottery\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\1815530\source\repos\Lottery\Lottery\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\College\Small Scale Applications\UWP\Lottery\Lottery\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\1815530\source\repos\Lottery\Lottery\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\College\Small Scale Applications\UWP\Lottery\Lottery\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\1815530\source\repos\Lottery\Lottery\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\College\Small Scale Applications\UWP\Lottery\Lottery\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\1815530\source\repos\Lottery\Lottery\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\College\Small Scale Applications\UWP\Lottery\Lottery\bin\x86\Debug\Lottery.xr.xml">
+    <AppxPackagedFile Include="C:\Users\1815530\source\repos\Lottery\Lottery\bin\x86\Debug\Lottery.xr.xml">
       <PackagePath>Lottery.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\College\Small Scale Applications\UWP\Lottery\Lottery\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\1815530\source\repos\Lottery\Lottery\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\College\Small Scale Applications\UWP\Lottery\Lottery\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\1815530\source\repos\Lottery\Lottery\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17763.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\College\Small Scale Applications\UWP\Lottery\Lottery\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\1815530\source\repos\Lottery\Lottery\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="F:\College\Small Scale Applications\UWP\Lottery\Lottery\bin\x86\Debug\Core\Lottery.exe">
+    <AppxPackagedFile Include="C:\Users\1815530\source\repos\Lottery\Lottery\bin\x86\Debug\Core\Lottery.exe">
       <PackagePath>Lottery.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

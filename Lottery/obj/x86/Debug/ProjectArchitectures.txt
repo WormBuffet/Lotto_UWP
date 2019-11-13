@@ -1,1 +1,1 @@
-F:\College\Small Scale Applications\UWP\Lottery\Lottery\Lottery.csproj;x86
+C:\Users\1815530\source\repos\Lottery\Lottery\Lottery.csproj;x86

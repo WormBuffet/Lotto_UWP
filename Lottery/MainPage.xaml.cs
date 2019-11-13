@@ -34,10 +34,7 @@ namespace Lottery
 
         private void hamburgerListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if (HomeListBox.IsSelected) { ButtonClickResult.Text = "Home"; }
-            else if (AboutListBox.IsSelected) { ButtonClickResult.Text = "About"; }
-            else if (AccountListBox.IsSelected) { ButtonClickResult.Text = "Add Account"; }
-            else if (ContactListBox.IsSelected) { ButtonClickResult.Text = "Contact"; }
+        
         }
     }
 }
